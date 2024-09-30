@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+
+.main {
+    width: 57%;
+    height: 75%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.main .contents h2{
+    text-align: center;
+    margin: 40px 0px 30px;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.main .contents .text{
+    text-align: center;
+    margin: 0px 40px 40px 40px;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+
+.main .contents .subs{
+    display: flex;
+    align-items: center;
+    margin: 20px 70px 40px 70px;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 0px 0px 0px 30px;
+    background-color: hsla(224, 23%, 55%, 0.04);
+    height: 110px;
+    border-radius: 15px;
+    color: black;
+    font-family: tahoma;
+}
+
+.main .contents .subs img{
+    padding: 10px 20px 0px 0px;
+    width: 80px;
+}
+
+.main .contents .subs span{
+    font-size: 20px;
+    color: hsl(224, 23%, 55%);
+    font-family: arial;
+}
+
+.main .contents .subs .change{
+    padding-left: 100px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-size: 18px;
+}
+
+.main .contents .proceed{
+    text-align: center;
+    margin: 45px 80px 35px 80px;
+    font-size: 20px;
+    height: 60px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 18px;
+    border-radius: 15px;
+    font-family: arial;
+    background-color: hsl(245, 80%, 54%);
+    box-shadow: 1px 2px 36px 1px hsl(245, 80%, 75%);
+}
+
+.main .contents .cancel{
+    text-align: center;
+    font-size: 21px;
+    font-family: tahoma;
+    color: hsl(224, 23%, 55%);
+    margin: 45px 80px 35px 80px;
+}
